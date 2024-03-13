@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming...</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.container {
+    height: 540px;
+    width: 100%;
+    background-color: #2B3856;
+    position: relative;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+#logo{
+     color: aliceblue;
+    position: relative;
+    left: 50px;
+    font-size: 30px;
+    top: -60px;
+}
+li {
+   overflow: hidden;
+   margin: 35px;
+}
+.box {
+    box-shadow: 1px 1px 20px black;
+    height: 85px;
+
+  
+}
+li:hover {
+    cursor: pointer;
+
+}
+#me img{
+    width: 90px;
+    height: 90px;
+    border: 1px solid #2B3856;
+    border-radius: 90px;
+    position: relative;
+    left: 49%;
+    top: -420px;
+}
+#tag h2{
+        color: rgb(255, 234, 234);
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: relative;
+        left: 46%;
+        top: -430px;
+        
+}
+#para {
+    color: white;
+    position:relative;
+    left: 760px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    top: -427px;
+    box-shadow: 1px 1px 2px white;
+    display: inline-block;
+}
+p#second {
+    position: relative;
+    left: 630px;
+    color: white;
+    top: -415px;
+    font-size: 12px;
+
+}
+
+div.icons {
+    position: relative;
+    left: 817px;
+    color: white;
+  top:-370px;
+}
+div #one {
+    margin: 10px;
+}
+
+div #two {
+    margin: 10px;
+}
+
+div #three {
+    margin: 10px;
+}
+
+
+
+button {
+    height: 30px;
+    width: 110px;
+    color: rgb(255, 254, 254);
+    position: relative;
+    left: 819px;
+    top: -350px;
+    color: rgb(255, 255, 255);
+    background-color: cadetblue;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px white;
+}
+button:hover{
+    cursor: pointer;
+    background-color: grey;
+    box-shadow: 1px 1px 2px gray;
+}
+div#about{
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: -160px;
+    left: 150px;
+}
+
+div#img1 img{
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    position: relative;
+    left: 150px;
+    top: -155px;
+}
+.border{
+    height: 180px;
+    width: 1300px;
+    background-color: rgb(255, 255, 255);
+    left: 300px;
+    border-radius: 10px;
+    top: -280px;
+    position: relative;
+    box-shadow: 1px 1px 35px rgb(229, 222, 222)
+}
+
+.color{
+    position: relative;
+    left: 350px;
+    top: -430px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+.range{
+    height: 8px;
+    width: 500px;
+    background-color:gray;
+    border-radius: 7px ;
+    position: relative;
+    left: 850px;
+    top: -480px;
+}
+.rangechild{
+    width: 0px;
+    height: 8px;
+    background-color:cadetblue;
+    animation-name: and;
+    animation-duration: 12s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+    @keyframes and{
+        from{
+          width: 0px;
+          background-color:yellow;
+        }
+        to{
+          width: 385px;
+        }
+    
+    }
+    
+    #git{
+        position:relative;
+        left: 852px;
+        top: -515px;
+        color: gray;
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .react{
+        height: 8px;
+        width: 500px;
+        background-color:gray;
+        border-radius: 7px ;
+        position: relative;
+        left: 850px;
+        top: -480px;
+    }
+#reactchild{
+    width: 0px;
+    height: 8px;
+    background-color:orange;
+    animation-name: react;
+    animation-duration: 12s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes react{
+    from{
+background-color:yellow;
+width: 0px;
+    }
+    to{
+width: 460px;
+    }
+}
+#frontend{
+    position:relative;
+    top: 30px;
+}
+#database{
+    height: 8px;
+    width: 500px;
+    background-color:gray;
+    border-radius: 7px ;
+    position:relative;
+    left: 850px;
+    top: -435px;
+
+}
+.mainbox{
+    width: 500px;
+    height: 500px;
+    background-color: rebeccapurple;
+}
+#last{
+    height: 8px;
+    width: 500px;
+    background-color:gray;
+    border-radius: 7px ;
+    position: relative;
+    left: 850px;
+    top: -435px;
+}
+#lastchild{
+    width: 0px;
+    height: 8px;
+    background-color:lightcoral;
+    animation-name: last;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes last{
+    from{
+background-color:yellow;
+width: 0px;
+    }
+    to{
+width: 320px;
+    }
+}
+#mongo{
+    position:relative;
+    top: -468px;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 850px;
+}
+#service{
+    position: relative;
+    top: -350px;
+    left: 5%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    font-size: 15px;
+    box-shadow: 1px 1px 8px rgb(242, 242, 242);
+    background-color: rgb(240, 235, 235);
+    border-radius: 12px;
+ 
+}
+.boxes{
+    height: 150px;
+    width: 450px;
+    background-color: blue;
+    margin: 5px;
+    border-radius: 8px;
+    position: relative;
+    top: -300px;
+    box-shadow: 1px 1px 10px rgb(182, 165, 165);
+  }
+  .services{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #box1{
+   background-color:
+   #00a0ff;
+  }
+  #box2{
+background-color: 
+#Ffd300;
+  }
+  #box3{
+  background-color: #Ff006c;
+  }
+  #brush{
+    position: relative;
+    left: 48%;
+    top: 15%;
+    font-size: 41px;
+    color: rgb(245, 236, 236);
+  }
+  #box1 h2{
+    position: relative;
+    left: 37%;
+    top: 20%;
+    color: #06354f;
+  }
+  #box1 #p1{
+   position: relative;
+   top: 25%;
+   left: 30px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #box2 #envelope{
+    position: relative;
+    left: 48%;
+    top: 15px;
+    font-size: 40px;
+    color: white;
+  }
+  #box2 h2{
+    position: relative;
+    left: 31%;
+    top: 20%;
+    color: #06354f;
+  }
+  #box2 #p2{
+  position: relative;
+  top: 25%;
+  left: 16px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Experience</li>
+                    <li>Works</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+            <i class="fa-regular fa-face-smile-wink" id="logo"></i>
+        </div>
+    </div>
+
+       <div id="me">
+        <img src="me1.jpg" alt="">
+       </div>
+       <div id="tag">
+        <h2>Tanishq sonwane </h2>
+    </div>
+    <div id="para">
+        <p>I am a Mern stack webdeveloper,<br>
+    </div> 
+    
+        <p id="second">I harmoniZe the realms of front-end fitness
+            to create immrersive Experience With two year's of Experience!</p>
+        </p>
+        <div class="icons">
+            <i class="fa-brands fa-square-twitter" id="one"></i>
+            <i class="fa-brands fa-linkedin" id="two"></i>
+            <i class="fa-brands fa-facebook" id="three"></i>
+        </div>
+        <div id="button">
+            <button>Work with me</button>
+        </div>
+        <div id="about">
+            <p><h2>About me</h2></p>
+        </div>
+        <div id="img1">
+            <img src="me1.jpg" alt="">
+        </div>
+        <div class="border">
+        </div>
+        <div class="color">
+            <p>crafting captivating user interface using modern framework's libraries and <br>Architacting scalable and secure server-side system. I am seasoned software <br> developer with expertice in front-end to know more on my journey and <br> my technical expertice, delve into the depth of my comperhensive resume.</p>
+        </div>
+        <div class="range">
+            <div class="rangechild">
+                
+            </div>
+        </div>
+        
+<div id="git">
+    <p>Git&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;75% </p>
+        
+    
+    <div id="frontend">
+        <p>Frontend-[React & nextjs]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;95% </p>
+    </div>
+    </div>
+    <div class="react">
+        <div id="reactchild">
+        </div>
+    </div>
+     <div id="last">
+        <div id="lastchild">
+
+        </div>
+     </div>
+     <div id="mongo">
+        <p>Database-[Mysql & Mongodb]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60% </p>
+     </div>
+
+
+
+     <div id="service">
+        <h1>Services</h1>
+     </div>
+     <div class="services">
+        <div class="boxes" id="box1"><i class="fa-solid fa-brush" id="brush"></i>
+        <h2>
+         UI/UX design</h2>
+         <p id="p1">Crafting digital Experiences that mesmerise and delight.</p>
+        </div>
+        <div class="boxes" id="box2"><i class="fa-regular fa-envelope" id="envelope"></i >
+        <h2>Web devlopement</h2>
+    <p id="p2">Building digital landscapes with code, where ideas comes to life</p></div>
+        <div class="boxes" id="box3"></div>
+     </div>
+    </body> 
+</html>
