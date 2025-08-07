@@ -1,0 +1,26 @@
+<div className='bg-black h-full w-[15%]'>
+         <div className='sideNav pt-12 pb-4 h-screen px-4 w-full l  flex flex-col gap-8  bg-[#1c1b22] shadow-2xl shadow-black'>
+    <div className=' px-6 w-full flex flex-col gap-7 text-sm'>
+        <h6 className='text-gray-200 flex items-center gap-2'> <FaHome className='text-lg text-gray-300'/> Home</h6>
+        <h6 className='text-gray-200 flex items-center gap-2'> <FaRegUserCircle className='text-lg text-gray-300'/>  About</h6>
+        <h6 className='text-gray-200 flex items-center gap-2'> <BsBagCheckFill className='text-lg text-gray-300'/>  Projects</h6>
+    </div>
+    <hr className='text-gray-500' />
+    <div className=' w-full flex flex-col gap-7 text-sm'>
+        <h5 className='text-md text-gray-300'>What i know</h5>
+        <h6 className='px-6 text-gray-200 flex items-center gap-2'> <FaHome className='text-lg text-gray-300 '/> Frontend</h6>
+        <h6 className='px-6 text-gray-200 flex items-center gap-2'> <FaRegUserCircle className='text-lg text-gray-300 '/>  Backend</h6>
+        <h6 className='px-6 text-gray-200 flex items-center gap-2'> <BsBagCheckFill className='text-lg text-gray-300 '/>  Devops</h6>
+    </div>
+    <hr className='text-gray-500' />
+    <div className=' w-full flex flex-col gap-7 text-sm'>
+        <h5 className='text-gray-300'>Get in touch</h5>
+        <h6 className='px-6 text-gray-300 flex items-center gap-2'> <FaHome className='text-lg text-gray-300'/> X.com</h6>
+        <h6 className='px-6 text-gray-300 flex items-center gap-2'> <FaRegUserCircle className='text-lg text-gray-300'/>  Github</h6>
+        <h6 className='px-6 text-gray-300 flex items-center gap-2'> <BsBagCheckFill className='text-lg text-gray-300'/>  Email</h6>
+        <h6 className='pl-6 text-gray-300 flex items-center gap-2'> <BsBagCheckFill className='text-lg text-gray-300'/>  Stack Overflow</h6>
+    </div>
+    <hr className='text-gray-500' />
+   </div>
+
+</div>
